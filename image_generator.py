@@ -128,7 +128,7 @@ if __name__ == '__main__':
                 print("URL Invalide")
         except (KeyError, IndexError) as error:
             print(f"URL Curseforge Invalide: {error.args}")
-        except (AttributeError, TypeError) as error:
+        except (AttributeError, TypeError, requests.exceptions.MissingSchema) as error:
             print(f"URL de mod CurseForge Invalide: {error.args}")
         except FileNotFoundError as error:
             print(f'Le fichier "{error.filename}" n\'existe pas')
