@@ -1,6 +1,6 @@
-# CurseForge Image Generator
+# CurseForge & Modrinth Image Generator
 
-A simple Python program to generate images for Minecraft mods from [CurseForge](https://www.curseforge.com/minecraft/mc-mods).
+A simple Python program to generate images for Minecraft mods from [CurseForge](https://www.curseforge.com/minecraft/mc-mods) or [Modrinth](https://modrinth.com/mods).
 
 Works by inputing the full URL or the slug of the mod.
 
